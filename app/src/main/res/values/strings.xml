@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My Movie List</string>
+
+
+    <string name="search_button_text">Search</string>
+    <string name="search_bar_text">Enter movie name</string>
+    <string name="cancel_search_text">Return to Movie List</string>
+    <string name="enter_name_text">Name:</string>
+    <string name="name_hint_text">Enter movie name</string>
+    <string name="summary_text">Plot overview:</string>
+    <string name="summary_hint_text">Enter plot overview</string>
+    <string name="poster_text">Movie poster:</string>
+    <string name="poster_hint_text">Enter poster URL</string>
+    <string name="poster_button_text">Show poster</string>
+    <string name="add_button_text">Add movie</string>
+    <string name="cancel_add_text">Cancel</string>
+
+    <string name="add_menu_text">Add movie</string>
+    <string name="system_menu_text">System menu</string>
+    <string name="edit_context_text">Edit movie info</string>
+    <string name="remove_context_text">Remove movie</string>
+    <string name="manual_option_text">Add movie manually</string>
+    <string name="search_option_text">Search The Movie DB</string>
+    <string name="erase_option_text">Erase all movie data</string>
+    <string name="exit_option_text">Exit</string>
+
+    <string name="dbdrop_toast_text">All movies were erased</string>
+    <string name="delete_movie_toast_text">Selected movie was erased</string>
+    <string name="search_toast_text">Searching, please wait a few seconds...</string>
+    <string name="empty_search_toast_text">Search failed - enter movie name</string>
+
+    <string name="warning_title_text"> Network connection not found</string>
+    <string name="network_error_text"> You need mobile data or Wi-Fi connection to access web search.</string>
+
+</resources>

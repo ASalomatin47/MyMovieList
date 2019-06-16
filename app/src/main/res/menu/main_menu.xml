@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+    <item
+        android:title="@string/add_menu_text"
+        android:id="@+id/add_movie_menu"
+        android:icon="@drawable/add_mov_icon"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/addManually"
+                android:icon="@drawable/edit_icon"
+                android:title="@string/manual_option_text"/>
+
+            <item
+                android:id="@+id/addWeb"
+                android:icon="@drawable/search_icon"
+                android:title="@string/search_option_text"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/system_menu_text"
+        android:id="@+id/system_menu"
+        android:icon="@drawable/settings_icon"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/eraseDB"
+                android:icon="@drawable/dbdrop_icon"
+                android:title="@string/erase_option_text"/>
+
+            <item
+                android:id="@+id/exitApp"
+                android:icon="@drawable/exit_icon"
+                android:title="@string/exit_option_text"/>
+        </menu>
+    </item>
+
+</menu>
+
